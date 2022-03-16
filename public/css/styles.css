@@ -40,7 +40,7 @@ body {
 }
 .intro-line {
   font-family: "Dancing Script", cursive;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 .btn-upload {
   border-radius: 25px;
@@ -74,8 +74,8 @@ a:hover {
 .card-f {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   text-align: center;
-  width: 19rem;
-  margin: 3rem;
+  width: 300px;
+  margin: 50px;
   background-image: linear-gradient(
     to right bottom,
     #cc33ff,
@@ -107,5 +107,8 @@ a:hover {
 }
 
 @media only screen and (max-width: 960px) {
-
+.card-f{
+   width: 240px;
+  margin: 50px;
+}
 }
