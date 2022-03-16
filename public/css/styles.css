@@ -20,6 +20,13 @@ body {
 #comp-container {
   margin-left: 8vw;
   margin-right: 8vw;
+  margin-bottom: 8vh;
+}
+#post-container {
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 8vh;
+  text-align: center;
 }
 .home-icon {
   text-align: left;
@@ -98,10 +105,7 @@ a:hover {
   text-align: center;
   margin: 1vh;
 }
-.post-container {
-  margin: 2vw;
-  text-align: center;
-}
+
 @media only screen and (max-width: 960px) {
 
 }
