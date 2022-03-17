@@ -1,8 +1,10 @@
 # YourSpace 
 > A Space for all your Files --- You can Add, Read, Update, Delete as well Download the file from this 
 
-
 ## Currently Live in [YourSpace-Heroku](https://its-your-space.herokuapp.com/)
+
+![Home Page](/sample-pictures/home-page.jpg)
+![Home List Page](/sample-pictures/files-list.jpg)
 
 ## Problem Statement
 **File system CRUD API** :
@@ -42,6 +44,8 @@ read, update and delete files.
 Base URL https://its-your-space.herokuapp.com/
 
 ## /compose
+
+![Compose Page](/sample-pictures/compose-page.jpg)
 > It is post route that take multiple values 
 The user can upload the files from this route by clicking on Upload button from the home page 
 It will have three required column asking for title for the file name then a quick description about the file and the file itself
@@ -55,6 +59,9 @@ On clicking Pubish Button it will redirect to Home Page and show the list of Upl
 ```
 
 ## posts/:id
+
+![Post Page](/sample-pictures/post-img.jpg)
+
 > This route shows a particular post (here file description)
 It will show data on the basis of id of the file { _id: requestedPostId }
 On the basis of id it will render the other details of the file 
