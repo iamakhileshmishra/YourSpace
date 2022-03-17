@@ -35,14 +35,14 @@ read, update and delete files.
 
 ## To clone and work locally 
 - Clone the Repo locally 
-- run napm install comand to install all the modules
-- create env file with your own database URI with key MONGOD_URL and Value your Mongoose connection link
+- run npm install command to install all the modules required for this Project
+- create .env file with your own database URI with key MONGOD_URL and Value your Mongoose connection link
 
 # EndPoints
 Base URL https://its-your-space.herokuapp.com/
 
 ## /compose
-> It is post route that take mu
+> It is post route that take multiple values 
 The user can upload the files from this route by clicking on Upload button from the home page 
 It will have three required column asking for title for the file name then a quick description about the file and the file itself
 On clicking Pubish Button it will redirect to Home Page and show the list of Uploads 
